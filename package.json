@@ -4,7 +4,10 @@
   "description": "practice of elctron,react,redux,webpack ",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .dist/main.js",
+    "build:main": "tsc",
+    "build:render": "webpack" 
   },
   "repository": {
     "type": "git",
